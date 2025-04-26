@@ -1,3 +1,6 @@
+# console pastable js code
+```
+
 (() => {
     //safety - is already happened in this session
     if (sessionStorage.getItem('menuSwapped') === 'true') {
@@ -42,3 +45,5 @@
         console.error('Error during swap operation:', error.message);
     }
 })();
+
+```
